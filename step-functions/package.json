@@ -1,0 +1,40 @@
+{
+  "name": "aws-step-functions-tutorials",
+  "version": "0.1.0",
+  "type": "module",
+  "bin": {
+    "aws-step-functions-tutorials": "bin/aws-step-functions-tutorials.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "type-check": "tsc --noEmit --skipLibCheck",
+    "test": "vitest",
+    "lint": "eslint --config eslint.config.js .",
+    "format": "prettier . --write",
+    "cdk": "cdk"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^2.1.4",
+    "@types/node": "20.7.1",
+    "@typescript-eslint/eslint-plugin": "^6.9.1",
+    "@typescript-eslint/parser": "^6.9.1",
+    "aws-cdk": "2.122.0",
+    "eslint": "^8.52.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-config-standard-with-typescript": "^38.0.0",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-n": "^15.0.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "prettier": "3.0.3",
+    "regenerator-runtime": "^0.14.1",
+    "tsx": "^4.7.1",
+    "typescript": "~5.2.2",
+    "vitest": "^1.2.2"
+  },
+  "dependencies": {
+    "aws-cdk-lib": "2.122.0",
+    "constructs": "^10.0.0",
+    "source-map-support": "^0.5.21"
+  }
+}
